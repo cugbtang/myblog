@@ -42,8 +42,8 @@ jobs:
           echo test, and deploy your project,
           ls -la
       # 发布
-      - name: deploy
-        uses: peaceirs/actions-gh-pages@v3
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
