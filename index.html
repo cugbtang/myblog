@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="img/favicon.ico">
-        <title>My Docs</title>
+        <title>我的第一个站点</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/base.css" rel="stylesheet">
@@ -23,7 +23,7 @@
     <body class="homepage">
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">My Docs</a>
+                <a class="navbar-brand" href=".">我的第一个站点</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,10 +34,27 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem active">
-                                <a href="." class="nav-link">index</a>
+                                <a href="." class="nav-link">主页</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">教程 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="tutorial/docker/" class="dropdown-item">docker</a>
+</li>
+                                    
+<li>
+    <a href="tutorial/linux-science-and-engine/" class="dropdown-item">linux</a>
+</li>
+                                    
+<li>
+    <a href="tutorial/operating-system/" class="dropdown-item">os</a>
+</li>
+                                </ul>
                             </li>
                             <li class="navitem">
-                                <a href="about/" class="nav-link">about</a>
+                                <a href="about/" class="nav-link">关于我</a>
                             </li>
                         </ul>
 
@@ -53,7 +70,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="about/" class="nav-link">
+                                <a rel="next" href="tutorial/docker/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -187,5 +204,5 @@ docs/
 
 <!--
 MkDocs version : 1.2.3
-Build Date UTC : 2022-01-20 04:09:48.562102+00:00
+Build Date UTC : 2022-01-20 08:44:04.287193+00:00
 -->
