@@ -24,7 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - run: |
-          echo SPATH
+          echo $PATH
           node -v
           npm -v
           python --version
@@ -32,7 +32,6 @@ jobs:
           go version
           mvn -version
           docker version
-          docker-compose
-          -V
+          docker-compose -V
           git version
 
