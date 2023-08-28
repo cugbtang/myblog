@@ -28,4 +28,8 @@ jobs:
           docker version
           docker-compose -v
           git version
+      - name: My first step
+        uses: actions/setup-node@v3
+      - run: |
+          node -v
 
